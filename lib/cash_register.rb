@@ -8,7 +8,7 @@ class CashRegister
     @items = []
     end 
     
-  def last_transaction
+  def last_transaction(price, quantity)
     last_trans = price*quantity
   end
     
