@@ -9,7 +9,7 @@ class CashRegister
     end 
     
   def last_transaction
-    @last_trans = price*quantity
+    last_trans = price*quantity
   end
     
   def add_item(title, price, quantity=1)
