@@ -8,15 +8,14 @@ class CashRegister
     @items = []
     end 
     
-  def last_transaction(price, quantity)
-    last_trans = price*quantity
-  end
     
   def add_item(title, price, quantity=1)
    @total += price*quantity
    quantity.times do 
      items.push(title)
    end 
+   
+   self.last_transaction = price*quantity
  end 
  
  def apply_discount
