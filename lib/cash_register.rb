@@ -29,10 +29,5 @@ class CashRegister
  def void_last_transaction
    @total = @total - last_transaction
  end 
-=======
-     
-   else 
-  end 
 end 
->>>>>>> 297fd677b706b1270921e2035feb195c7ed69947
 end 
